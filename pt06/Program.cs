@@ -6,6 +6,7 @@ namespace pt06
     {
         static void Main(string[] args)
         {
+            Console.Write("canvi desde la webb ");
             Console.Write(" canvi local :)   ");
             Console.Write("Introdueix un valor: ");
             if (int.TryParse(Console.ReadLine(), out int limit))
