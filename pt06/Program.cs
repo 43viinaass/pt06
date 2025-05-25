@@ -6,9 +6,12 @@ namespace pt06
     internal class Program
     {
         static void Main(string[] args)
-        {   
+  {   
             System.Console.Write("canvi desde la webb ");
              System.Console.WriteLine(" canvi local :)  ");          
+
+        {
+      
             Console.Write("Introdueix un valor: ");
             if (int.TryParse(Console.ReadLine(), out int limit))
             {
