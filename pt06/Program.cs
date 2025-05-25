@@ -9,7 +9,7 @@ namespace pt06
             Console.Write("Introdueix un valor: ");
             if (int.TryParse(Console.ReadLine(), out int limit))
             {
-                Console.WriteLine("Programa per comptar múltiples de 7.");
+                Console.WriteLine("Programa per comptar múltiples de 7.  ");
 
                 Console.WriteLine($"Hi ha {Metodes.ContadorMultiples(limit)} números múltiples de 7 més petits que {limit}.");
             }
@@ -30,7 +30,7 @@ namespace pt06
         
         class Metodes
         {
-            public static List<int> ContadorMultiples(int limit)
+            public static List<int> ContadorMultiples(int limit) //amb aixo contem els multiples 
             {
                 List<int> multiples = new List<int>();
                 for (int i = 1; i < limit; i++)
