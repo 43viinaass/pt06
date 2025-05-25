@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 
 namespace pt06
 {
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {   
+            System.Console.Write("canvi desde la webb ");
+             System.Console.WriteLine(" canvi local :)  ");          
             Console.Write("Introdueix un valor: ");
             if (int.TryParse(Console.ReadLine(), out int limit))
             {
@@ -18,7 +21,7 @@ namespace pt06
                 Console.WriteLine("Valor no vàlid.");
             }
             
-            var multiples = Metodes.MultiplesDe7(limit);
+            var multiples = Metodes.ContadorMultiples(limit);
             Console.WriteLine("Nombres múltiples de 7 menors que " + limit + ":");
             foreach (var num in multiples)
             {
@@ -27,7 +30,7 @@ namespace pt06
             Console.WriteLine();
         }
      
-        
+   
         class Metodes
         {
             public static List<int> ContadorMultiples(int limit) //amb aixo contem els multiples 
