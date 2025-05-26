@@ -10,7 +10,7 @@ namespace pt06
             System.Console.Write("canvi desde la webb ");
              System.Console.WriteLine(" canvi local :) 1111 ");
 
-            System.Console.WriteLine("canvi simultani");     
+            System.Console.WriteLine("canvi simultani desde la web");     
 
         {
       
