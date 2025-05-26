@@ -8,7 +8,9 @@ namespace pt06
         static void Main(string[] args)
   {   
             System.Console.Write("canvi desde la webb ");
-             System.Console.WriteLine(" canvi local :)  ");          
+             System.Console.WriteLine(" canvi local :) 1111 ");
+
+            System.Console.WriteLine("canvi simultani");     
 
         {
       
